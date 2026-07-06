@@ -1,0 +1,2 @@
+Drop your thumbnail images (1280x720) and reel cover images (1080x1920) in this folder,
+then reference them from assets/js/data.js. See README.md for the 30-second guide.

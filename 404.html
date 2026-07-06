@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — Page not found | Pixado</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;900&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    .nf{min-height:100vh;display:grid;place-items:center;text-align:center;padding:24px;position:relative;overflow:hidden}
+    .nf__glow{position:absolute;inset:0;background:radial-gradient(600px 320px at 50% 30%,rgba(38,136,240,.25),transparent 70%);pointer-events:none}
+    .nf__code{font-family:"Archivo";font-weight:900;font-size:clamp(5rem,22vw,12rem);line-height:.9;
+      background:linear-gradient(180deg,#4aa2ff,#1667c9);-webkit-background-clip:text;background-clip:text;color:transparent;
+      filter:drop-shadow(0 10px 40px rgba(38,136,240,.4))}
+    .nf h1{font-family:"Archivo";font-size:clamp(1.4rem,4vw,2rem);margin:6px 0 12px}
+    .nf p{color:var(--muted);max-width:440px;margin:0 auto 28px}
+    .nf__inner{position:relative}
+  </style>
+</head>
+<body>
+  <section class="nf">
+    <div class="nf__glow"></div>
+    <div class="nf__inner">
+      <a href="index.html" class="brand" style="justify-content:center;margin-bottom:20px">
+        <span class="brand__mark"></span>
+        <span class="brand__text"><span class="b">PIXA</span><span class="w">DO</span></span>
+      </a>
+      <div class="nf__code">404</div>
+      <h1>This page took a scroll-break.</h1>
+      <p>The page you're looking for doesn't exist or has moved. Let's get you back to the good stuff.</p>
+      <a href="index.html" class="btn btn--lg">Back to Home</a>
+    </div>
+  </section>
+</body>
+</html>
